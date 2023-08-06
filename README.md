@@ -39,7 +39,14 @@ python -m venv .venv
 ```
 pip install -r requirements.txt
 ```
-7. Setelah dependensi terinstal, Anda dapat menjalankan skrip proyek melalui jupyter notebook.
+7. Setelah dependensi terinstal, Anda dapat menjalankan skrip proyek.
+```
+python run.py
+```
+atau
+```
+py run.py
+```
 
 Proyek ini diharapkan dapat memberikan kontribusi dalam pengembangan teknologi pengenalan ekspresi wajah dan menjadi sumber pembelajaran bagi mereka yang tertarik dalam pemrosesan gambar dan pembelajaran mesin.
 
@@ -85,6 +92,13 @@ python -m venv .venv
 ```
 pip install -r requirements.txt
 ```
-7. Once the dependencies are installed, you can run the project script via jupyter notebook.
+7. Once the dependencies are installed, you can run the project script:
+```
+python run.py
+```
+or
+```
+py run.py
+```
 
 This project is expected to contribute to the advancement of facial expression recognition technology and serve as a learning resource for individuals interested in image processing and machine learning.
