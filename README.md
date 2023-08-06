@@ -27,11 +27,19 @@ Cara Menjalankan Proyek:
 ```
 py -m venv .venv
 ```
-5. Install semua dependensi dengan menjalankan perintah:
+atau
+```
+python -m venv .venv
+```
+5. Aktifkan virtual environmentnya:
+```
+.venv\Scripts\activate
+```
+6. Install semua dependensi dengan menjalankan perintah:
 ```
 pip install -r requirements.txt
 ```
-6. Setelah dependensi terinstal, Anda dapat menjalankan skrip proyek melalui jupyter notebook.
+7. Setelah dependensi terinstal, Anda dapat menjalankan skrip proyek melalui jupyter notebook.
 
 Proyek ini diharapkan dapat memberikan kontribusi dalam pengembangan teknologi pengenalan ekspresi wajah dan menjadi sumber pembelajaran bagi mereka yang tertarik dalam pemrosesan gambar dan pembelajaran mesin.
 
@@ -65,10 +73,18 @@ How to Run the Project:
 ```
 py -m venv .venv
 ```
-5. Install all dependencies by running the command:
+or
+```
+python -m venv .venv
+```
+5. Activate the virtual environment:
+```
+.venv\Scripts\activate
+```
+6. Install all dependencies by running the command:
 ```
 pip install -r requirements.txt
 ```
-6. Once the dependencies are installed, you can run the project script via jupyter notebook.
+7. Once the dependencies are installed, you can run the project script via jupyter notebook.
 
 This project is expected to contribute to the advancement of facial expression recognition technology and serve as a learning resource for individuals interested in image processing and machine learning.
