@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 
 # Memuat model
-loadModel = load_model('model/feModel.keras')
+loadModel = load_model('model/model100Epoch.keras')
 
 # Fungsi untuk mendeteksi dan memprediksi ekspresi wajah dari gambar
 def predict_expression(image):
