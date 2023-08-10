@@ -6,7 +6,7 @@ from streamlit_webrtc import webrtc_streamer
 import av
 
 # Load the pre-trained model for facial expression detection
-loadModel = load_model('model/nama_model.keras')
+loadModel = load_model('model/model.keras')
 
 
 # Function to predict facial expression from an image
