@@ -1,5 +1,6 @@
 tensorflow==2.12.0
 opencv-contrib-python
+libgl1
 streamlit
 streamlit-webrtc
 
