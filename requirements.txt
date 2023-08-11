@@ -1,3 +1,4 @@
 tensorflow
+joblib
 opencv-python
 streamlit-webrtc
