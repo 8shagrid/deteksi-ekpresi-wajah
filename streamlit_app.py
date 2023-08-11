@@ -43,6 +43,9 @@ def predict_expression(image):
 def video_frame_callback(frame):
     img = frame.to_ndarray(format="bgr24")
 
+    # Resize the frame to 48x48
+    resized_frame = cv.resize(img, (48, 48))
+
     # Flip the frame horizontally (mirror effect)
     flipped_frame = cv.flip(img, 1)
 
