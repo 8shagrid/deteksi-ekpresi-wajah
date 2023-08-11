@@ -24,7 +24,7 @@ google-auth-oauthlib==1.0.0
 google-crc32c==1.5.0
 google-pasta==0.2.0
 grpcio==1.57.0
-h5py==3.9.0
+h5py==3.9.0Q
 idna==3.4
 ifaddr==0.2.0
 importlib-metadata==6.8.0
@@ -74,8 +74,8 @@ streamlit-webrtc==0.45.1
 tenacity==8.2.2
 tensorboard==2.13.0
 tensorboard-data-server==0.7.1
-tensorflow==2.13.0
 tensorflow-estimator==2.13.0
+tensorflow-intel==2.13.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
 toml==0.10.2
@@ -90,3 +90,4 @@ watchdog==3.0.0
 Werkzeug==2.3.6
 wrapt==1.14.1
 zipp==3.16.2
+tensorflow
