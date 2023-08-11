@@ -6,4 +6,5 @@ Proyek ini bertujuan untuk mengembangkan sebuah model deteksi ekspresi wajah ber
 Link Dataset:
 https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset.
 
-
+# Demo
+![DEMO](images/demo1.png)
