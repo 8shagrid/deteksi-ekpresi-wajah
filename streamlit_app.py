@@ -41,22 +41,10 @@ def predict_expression(image):
 
 # Video Frame Callback Function for Streamlit WebRTC
 def video_frame_callback(frame):
-    img = frame.to_ndarray(format="bgr24")  # Ambil bingkai dalam format BGR
-    
-    # Konversi ukuran gambar sesuai dengan model
-    resized_img = cv.resize(img, (48, 48))
-
-    # Konversi ke grayscale jika model Anda membutuhkannya
-    gray_img = cv.cvtColor(resized_img, cv.COLOR_BGR2GRAY)
-
-    # Normalisasi gambar sesuai dengan yang diperlukan oleh model
-    normalized_img = gray_img / 255.0  # Contoh normalisasi untuk Grayscale
-
-    # Ubah bentuk gambar sesuai dengan bentuk input model
-    input_img = np.reshape(normalized_img, (1, 48, 48, 1))  # Ubah bentuk menjadi (batch, height, width, channels)
+    img = frame.to_ndarray(format="bgr24")
 
     # Flip the frame horizontally (mirror effect)
-    flipped_frame = cv.flip(input_img, 1)
+    flipped_frame = cv.flip(img, 1)
 
     # Perform facial expression detection on the flipped frame
     output_frame = predict_expression(flipped_frame)
