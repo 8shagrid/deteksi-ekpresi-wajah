@@ -1,12 +1,14 @@
 import streamlit as st
 import cv2 as cv
 import numpy as np
+import joblib
 from keras.models import load_model
 from streamlit_webrtc import webrtc_streamer
 import av
 
 # Load the model for facial expression detection
-loadModel = load_model('model/model.keras')
+# loadModel = load_model('model/model.keras')
+loadModel = joblib.load("model/model.pkl")
 
 
 # Function to predict facial expression from an image
